@@ -1,2 +1,36 @@
-# Superstore-Sales-Analysis
-An interactive end-to-end Excel Analytics Dashboard diagnosing $2.3M in sales and $77K in losses for Superstore Retail. Highlights profitability drivers, discount impact, and regional performance with dynamic visuals and executive report.
+
+# 📊 Superstore Sales & Profitability Analysis | Excel Dashboard & Executive Report
+
+## 📖 About The Project (نبذة عن المشروع)
+مشروع تحليلي شامل لبيانات متجر **Superstore** للتجزئة والتوريدات (بإجمالي مبيعات **$2.297M**). يهدف المشروع إلى تشخيص الجذور الأساسية للخسائر المالية المنتشرة في بعض الولايات والقطاعات، وتحديد أثر الخصومات المفرطة على صافي الأرباح، وتقديم توصيات استراتيجية قابلة للتنفيذ لزيادة الهوامش الربحية.
+
+---
+
+## 🔑 Key Financial Indicators (أبرز المؤشرات المالية)
+- **إجمالي المبيعات (Total Revenue):** `$2,297,201`
+- **صافي الأرباح (Net Profit):** `$363,465`
+- **إجمالي الخسائر (Total Losses):** `$77,058`
+- **الطلبات الرابحة مقابل الخاسرة:** `9,702` طلب رابح مقابل `293` طلب خاسر.
+- **الولايات الأكثر ربحية:** ولاية **California** (ربح `$76,381.14` من مبيعات `$457,687.63`).
+- **الولايات الأكثر خسارة:** ولاية **Texas** (خسارة صافية `-$25,729.36`).
+
+---
+
+## 💡 Key Business Insights (أهم النتائج والتوصيات)
+1. **تأثير الخصومات (Discount Analysis):** تبين أن منح خصومات تتجاوز 20% كان السبب الرئيسي في تراجع أرباح قطاعات مثل الأثاث (*Tables & Bookcases*) وتحول معاملات ولاية Texas للربحية السلبية.
+2. **التوصية التنفيذية:** إعادة هيكلة سياسة الخصم الممنوحة لتتراوح بين **5% إلى 9%** كحد أقصى للمنتجات ذات الهوامش الحساسة، مع التركيز على المنتجات في نطاق السعر ($1 - $1,000).
+
+---
+
+## 🛠️ Technical Implementation & Features (المميزات والتقنيات)
+- **Data Modeling & Pivot Tables:** تجميع وتنظيف البيانات وتنظيم الجداول المحورية لحساب المقاييس المركبة.
+- **Interactive Dashboard:** لوحة تحكم تفاعلية تربط المخططات البيانية بـ **Slicers** موحدة لتصفية البيانات حسب العام والإقليم والفئة.
+- **Geographic Mapping:** خريطة حرارية مظللة (**Filled Map**) لتوزيع الأرباح على مستوى ولايات الولايات المتحدة.
+- **Security & Protection:** استخدام تقنية `Very Hidden` لشيتات الجداول المحورية وقفل البنية لحماية المعادلات والواجهة.
+
+---
+
+## 📂 Repository Contents (محتويات المستودع)
+- 📊 `Superstore_Final_Report.xlsx`: ملف الإكسل التفاعلي والمحمي بالكامل.
+- 📄 `superstore-executive-report-v2.pdf`: التقرير التنفيذي الجاهز للعرض الإداري.
+- 🖼️ `us_profit_map_green.png`: صورة معاينة لوحة التحكم والخريطة.
